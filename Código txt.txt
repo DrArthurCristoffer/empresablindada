@@ -6,7 +6,6 @@
     <title>Dr. Arthur Cristoffer | Estratégia, Prevenção e Valor</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <!-- Adicionando fontes elegantes que combinam com sua logo -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     
     <script>
@@ -18,11 +17,11 @@
                         serif: ['Playfair Display', 'serif'],
                     },
                     colors: {
-                        primary: '#0A1118', // Azul Marinho muito escuro (Fundo da logo)
-                        secondary: '#16243A', // Azul Marinho do terno
-                        accent: '#B89955', // Dourado principal da logo
-                        accentHover: '#9A7D42', // Dourado mais escuro para hover
-                        lightGold: '#E6D5AA', // Dourado claro para textos de apoio
+                        primary: '#0A1118',
+                        secondary: '#16243A',
+                        accent: '#B89955',
+                        accentHover: '#9A7D42',
+                        lightGold: '#E6D5AA',
                     }
                 }
             }
@@ -34,7 +33,6 @@
     <!-- CABEÇALHO COM LOGO -->
     <nav class="bg-primary py-5 px-6 border-b border-accent/20">
         <div class="max-w-6xl mx-auto flex justify-center md:justify-start">
-            <!-- AQUI ENTRA A SUA LOGO -->
             <img src="logo.jpg.jpeg" alt="Logo Dr. Arthur Cristoffer" class="h-16 md:h-20 object-contain">
         </div>
     </nav>
@@ -51,10 +49,20 @@
             <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto font-light">
                 Mapeamos riscos trabalhistas, revisamos contratos e verificamos se você está pagando impostos indevidos. Um diagnóstico seguro, sem burocracia e alinhado à sua contabilidade.
             </p>
-            <a href="#formulario" class="inline-block bg-accent hover:bg-accentHover transition-colors duration-300 text-white font-bold py-4 px-8 rounded-lg text-lg shadow-lg">
-                Solicitar Diagnóstico Preliminar
-            </a>
-            <p class="mt-4 text-sm text-gray-400 font-light">
+            
+            <!-- BOTÕES: DIAGNÓSTICO E CONTRATO GRATUITO -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="#formulario" class="w-full sm:w-auto text-center inline-block bg-accent hover:bg-accentHover transition-colors duration-300 text-white font-bold py-4 px-8 rounded-lg text-lg shadow-lg">
+                    Solicitar Diagnóstico Preliminar
+                </a>
+                
+                <!-- LINK DO DRIVE ADICIONADO AQUI -->
+                <a href="https://drive.google.com/file/d/1gkQJSjRYnJO9wiVHJismhhEqEyCE4f2o/view?usp=drive_link" target="_blank" class="w-full sm:w-auto text-center inline-block bg-transparent border-2 border-accent text-accent hover:bg-accent hover:text-primary transition-colors duration-300 font-bold py-4 px-8 rounded-lg text-lg shadow-lg flex justify-center items-center gap-2">
+                    <i class="fa-solid fa-file-contract"></i> Baixar Contrato Modelo
+                </a>
+            </div>
+            
+            <p class="mt-8 text-sm text-gray-400 font-light">
                 <i class="fa-solid fa-shield-halved mr-1 text-accent"></i> Análise estritamente documental, ética e confidencial (LGPD).
             </p>
         </div>
@@ -69,7 +77,7 @@
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Pilar Trabalhista -->
+                <!-- Trabalhista -->
                 <div class="bg-gray-50 p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-accent/30 transition duration-300">
                     <div class="w-12 h-12 bg-secondary text-accent rounded-lg flex items-center justify-center text-xl mb-6 shadow-md">
                         <i class="fa-solid fa-users-gear"></i>
@@ -80,7 +88,7 @@
                     </p>
                 </div>
 
-                <!-- Pilar Tributário -->
+                <!-- Tributário -->
                 <div class="bg-gray-50 p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-accent/30 transition duration-300">
                     <div class="w-12 h-12 bg-secondary text-accent rounded-lg flex items-center justify-center text-xl mb-6 shadow-md">
                         <i class="fa-solid fa-file-invoice-dollar"></i>
@@ -91,7 +99,7 @@
                     </p>
                 </div>
 
-                <!-- Pilar Empresarial -->
+                <!-- Empresarial -->
                 <div class="bg-gray-50 p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-accent/30 transition duration-300">
                     <div class="w-12 h-12 bg-secondary text-accent rounded-lg flex items-center justify-center text-xl mb-6 shadow-md">
                         <i class="fa-solid fa-handshake-angle"></i>
@@ -133,15 +141,69 @@
         </div>
     </section>
 
-    <!-- AUTORIDADE E FORMULÁRIO / CTA -->
+    <!-- SEÇÃO DA NEWSLETTER SEGMENTADA -->
+    <section class="py-20 px-6 bg-primary border-b border-accent/20" id="newsletter">
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-secondary rounded-2xl shadow-2xl border border-accent/30 p-8 md:p-12 text-white relative overflow-hidden">
+                <!-- Efeito de iluminação no fundo -->
+                <div class="absolute -right-20 -top-20 w-64 h-64 bg-accent/10 rounded-full blur-3xl"></div>
+                
+                <div class="relative z-10">
+                    <h2 class="font-serif text-3xl font-bold mb-4 text-white">
+                        <i class="fa-regular fa-envelope-open text-accent mr-3"></i>Boletim Jurídico Estratégico
+                    </h2>
+                    <p class="text-gray-300 mb-8 font-light text-lg">
+                        Receba no seu e-mail alertas fiscais, decisões trabalhistas e orientações de negócios formatadas de forma executiva, apenas para as áreas que importam para você.
+                    </p>
+                    
+                    <form id="formNewsletter" onsubmit="enviarNewsletter(event)" class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-300 mb-2">Nome do Responsável / Empresa</label>
+                                <input type="text" id="newsNome" required class="w-full px-4 py-3 bg-primary border border-gray-700 rounded-lg text-white focus:ring-2 focus:ring-accent outline-none placeholder-gray-600 transition" placeholder="Ex: Arthur (Grupo Empresarial)">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-300 mb-2">E-mail de Contato</label>
+                                <input type="email" id="newsEmail" required class="w-full px-4 py-3 bg-primary border border-gray-700 rounded-lg text-white focus:ring-2 focus:ring-accent outline-none placeholder-gray-600 transition" placeholder="contato@empresa.com.br">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-3">Quais áreas deseja acompanhar? (Selecione ao menos uma)</label>
+                            <div class="flex flex-col sm:flex-row gap-4">
+                                <label class="flex items-center gap-3 cursor-pointer group">
+                                    <input type="checkbox" name="newsArea" value="Trabalhista" class="w-5 h-5 accent-accent" checked>
+                                    <span class="text-sm text-gray-300 group-hover:text-white transition-colors">Trabalhista e RH</span>
+                                </label>
+                                <label class="flex items-center gap-3 cursor-pointer group">
+                                    <input type="checkbox" name="newsArea" value="Tributário" class="w-5 h-5 accent-accent" checked>
+                                    <span class="text-sm text-gray-300 group-hover:text-white transition-colors">Tributário e Fiscal</span>
+                                </label>
+                                <label class="flex items-center gap-3 cursor-pointer group">
+                                    <input type="checkbox" name="newsArea" value="Empresarial" class="w-5 h-5 accent-accent">
+                                    <span class="text-sm text-gray-300 group-hover:text-white transition-colors">Societário e Contratos</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" id="btnNewsletter" class="w-full sm:w-auto bg-transparent border-2 border-accent text-accent hover:bg-accent hover:text-primary transition-colors duration-300 font-bold py-3 px-8 rounded-lg text-lg shadow-lg">
+                            <i class="fa-solid fa-paper-plane mr-2"></i> Quero receber o Boletim
+                        </button>
+                        
+                        <p id="msgNewsletter" class="text-sm mt-4 hidden font-medium"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AUTORIDADE E FORMULÁRIO (WHATSAPP) -->
     <section id="formulario" class="py-20 px-6 bg-gray-50">
         <div class="max-w-6xl mx-auto bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden flex flex-col md:flex-row">
             
-            <!-- Lado Esquerdo: Foto e Autoridade -->
             <div class="md:w-1/2 bg-primary p-10 flex flex-col justify-center relative">
                 <div class="absolute top-0 right-0 w-32 h-32 bg-accent/10 rounded-bl-full"></div>
                 
-                <!-- AQUI ENTRA A SUA FOTO -->
                 <div class="mb-8 relative z-10">
                     <img src="foto.jpg.jpeg" alt="Dr. Arthur Cristoffer" class="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-accent object-cover shadow-lg">
                 </div>
@@ -150,7 +212,7 @@
                 <h3 class="text-accent font-semibold mb-6 tracking-wide text-sm uppercase">Estratégia • Prevenção • Valor</h3>
                 
                 <p class="text-gray-300 mb-6 text-sm leading-relaxed font-light">
-                    Meu objetivo não é gerar processos judiciais, mas sim evitá-llos. Atuo na blindagem de empresas, garantindo segurança jurídica e conformidade fiscal para que você tenha tranquilidade na tomada de decisão.
+                    Meu objetivo não é gerar processos judiciais, mas sim evitá-los. Atuo na blindagem de empresas, garantindo segurança jurídica e conformidade fiscal para que você tenha tranquilidade na tomada de decisão.
                 </p>
                 <ul class="space-y-3 text-sm text-gray-300">
                     <li><i class="fa-solid fa-check text-accent mr-2"></i> Sem compromisso contratual imediato</li>
@@ -159,7 +221,6 @@
                 </ul>
             </div>
             
-            <!-- Lado Direito: Formulário -->
             <div class="p-10 md:w-1/2 flex flex-col justify-center bg-white">
                 <h3 class="font-serif text-2xl font-bold text-primary mb-2">Dê o primeiro passo</h3>
                 <p class="text-sm text-gray-500 mb-6">Preencha os dados abaixo. Nossa equipe fará contato inicial pelo WhatsApp para entender sua demanda.</p>
@@ -185,7 +246,6 @@
                         </select>
                     </div>
                     
-                    <!-- Botão WhatsApp -->
                     <button type="button" onclick="enviarParaWhatsApp()" class="w-full bg-accent hover:bg-accentHover text-primary font-bold py-4 px-4 rounded-lg transition-colors mt-4 shadow-md flex justify-center items-center gap-2">
                         <i class="fa-brands fa-whatsapp text-xl"></i> Agendar Diagnóstico
                     </button>
@@ -207,7 +267,7 @@
         </div>
     </footer>
 
-    <!-- SCRIPT DE ROTEAMENTO PARA O WHATSAPP -->
+    <!-- SCRIPT DE ROTEAMENTO WHATSAPP & NEWSLETTER -->
     <script>
         function enviarParaWhatsApp() {
             var nome = document.getElementById('nomeLead').value.trim();
@@ -224,6 +284,47 @@
             
             var url = "https://wa.me/" + seuNumeroWhatsApp + "?text=" + encodeURIComponent(texto);
             window.open(url, '_blank');
+        }
+
+        function enviarNewsletter(event) {
+            event.preventDefault();
+            
+            const btn = document.getElementById('btnNewsletter');
+            const msg = document.getElementById('msgNewsletter');
+            const form = document.getElementById('formNewsletter');
+            
+            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin mr-2"></i> Processando...';
+            btn.disabled = true;
+
+            // Coleta todas as áreas marcadas nas caixinhas (Trabalhista, Tributário...)
+            const areasCheckbox = document.querySelectorAll('input[name="newsArea"]:checked');
+            let areasSelecionadas = [];
+            areasCheckbox.forEach((cb) => { areasSelecionadas.push(cb.value); });
+            const areaFinal = areasSelecionadas.length > 0 ? areasSelecionadas.join(", ") : "Geral";
+
+            const formData = new FormData();
+            formData.append('nome', document.getElementById('newsNome').value);
+            formData.append('email', document.getElementById('newsEmail').value);
+            formData.append('areas', areaFinal);
+
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzv3nbX6g6CFpdZkQ3LJWudjtR6QGfkQvqYmsraGaWpwO8xt4KYsqZ4sty8HIe9u0KL/exec';
+
+            fetch(scriptURL, { method: 'POST', body: formData, mode: 'no-cors' })
+                .then(() => {
+                    msg.innerHTML = '<i class="fa-solid fa-circle-check mr-2"></i> Inscrição confirmada com sucesso!';
+                    msg.classList.remove('hidden', 'text-red-400');
+                    msg.classList.add('text-green-400');
+                    form.reset();
+                    btn.innerHTML = '<i class="fa-solid fa-paper-plane mr-2"></i> Quero receber o Boletim';
+                    btn.disabled = false;
+                })
+                .catch(error => {
+                    msg.innerHTML = '<i class="fa-solid fa-circle-xmark mr-2"></i> Ocorreu um erro na conexão. Tente novamente.';
+                    msg.classList.remove('hidden', 'text-green-400');
+                    msg.classList.add('text-red-400');
+                    btn.innerHTML = 'Tentar novamente';
+                    btn.disabled = false;
+                });
         }
     </script>
 
