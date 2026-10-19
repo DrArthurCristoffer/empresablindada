@@ -33,14 +33,13 @@
     <!-- CABEÇALHO -->
     <nav class="bg-primary py-5 px-6 border-b border-accent/20">
         <div class="max-w-6xl mx-auto flex justify-center md:justify-start">
-            <!-- Podes voltar a colocar a tag <img> com a tua logo se preferires -->
             <div class="text-accent font-serif text-2xl font-bold tracking-wider">
                 ARTHUR CRISTOFFER<br><span class="text-xs font-sans tracking-widest text-gray-400 font-light uppercase">Advocacia e Consultoria</span>
             </div>
         </div>
     </nav>
 
-    <!-- HERO SECTION (VISUAL DA SUA IMAGEM) -->
+    <!-- HERO SECTION -->
     <header class="bg-primary text-white pt-20 pb-24 px-6 relative overflow-hidden">
         <div class="max-w-4xl mx-auto relative z-10 text-center">
             
@@ -58,7 +57,7 @@
             
             <!-- BOTÃO PARA O GOOGLE FORMS -->
             <div class="flex justify-center">
-                <!-- ATENÇÃO: COLOQUE AQUI O LINK DO SEU GOOGLE FORMS -->
+                <!-- O LINK DO FORMS FOI COLOCADO AQUI: -->
                 <a href="https://forms.gle/ajNzCqZmYJucjYxFA" target="_blank" class="inline-block bg-[#B89955] hover:bg-[#9A7D42] transition-colors duration-300 text-primary font-bold py-4 px-10 rounded-lg text-lg shadow-lg flex items-center gap-3">
                     <i class="fa-solid fa-file-contract"></i> Resgatar Modelo Gratuito Agora
                 </a>
@@ -70,7 +69,7 @@
         </div>
     </header>
 
-    <!-- OS 3 PILARES (CONFORME SUA IMAGEM) -->
+    <!-- OS 3 PILARES -->
     <section class="py-24 px-6 bg-white">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-16">
@@ -79,7 +78,7 @@
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Pilar 1 -->
+                <!-- Trabalhista -->
                 <div class="bg-gray-50 p-10 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition duration-300">
                     <div class="w-12 h-12 bg-primary text-accent rounded-xl flex items-center justify-center text-xl mb-6 shadow-md">
                         <i class="fa-solid fa-users-gear"></i>
@@ -90,7 +89,7 @@
                     </p>
                 </div>
 
-                <!-- Pilar 2 -->
+                <!-- Tributário -->
                 <div class="bg-gray-50 p-10 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition duration-300">
                     <div class="w-12 h-12 bg-primary text-accent rounded-xl flex items-center justify-center text-xl mb-6 shadow-md">
                         <i class="fa-solid fa-file-invoice-dollar"></i>
@@ -101,7 +100,7 @@
                     </p>
                 </div>
 
-                <!-- Pilar 3 -->
+                <!-- Empresarial -->
                 <div class="bg-gray-50 p-10 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition duration-300">
                     <div class="w-12 h-12 bg-primary text-accent rounded-xl flex items-center justify-center text-xl mb-6 shadow-md">
                         <i class="fa-solid fa-handshake-angle"></i>
@@ -115,7 +114,7 @@
         </div>
     </section>
 
-    <!-- SEÇÃO DA NEWSLETTER SEGMENTADA (NOSSA INTEGRAÇÃO COM O SHEETS) -->
+    <!-- SEÇÃO DA NEWSLETTER SEGMENTADA -->
     <section class="py-20 px-6 bg-primary border-t border-b border-accent/20" id="newsletter">
         <div class="max-w-4xl mx-auto">
             <div class="bg-secondary rounded-3xl shadow-2xl border border-accent/20 p-8 md:p-12 text-white relative overflow-hidden">
@@ -170,6 +169,66 @@
         </div>
     </section>
 
+    <!-- AUTORIDADE E FORMULÁRIO (WHATSAPP DE VOLTA) -->
+    <section id="formulario" class="py-20 px-6 bg-gray-50">
+        <div class="max-w-6xl mx-auto bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden flex flex-col md:flex-row">
+            
+            <div class="md:w-1/2 bg-primary p-10 flex flex-col justify-center relative">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-accent/10 rounded-bl-full"></div>
+                
+                <div class="mb-8 relative z-10">
+                    <img src="foto.jpg.jpeg" alt="Dr. Arthur Cristoffer" class="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-accent object-cover shadow-lg">
+                </div>
+                
+                <h2 class="font-serif text-3xl font-bold mb-2 text-white">Dr. Arthur Cristoffer</h2>
+                <h3 class="text-accent font-semibold mb-6 tracking-wide text-sm uppercase">Estratégia • Prevenção • Valor</h3>
+                
+                <p class="text-gray-300 mb-6 text-sm leading-relaxed font-light">
+                    Meu objetivo não é gerar processos judiciais, mas sim evitá-los. Atuo na blindagem de empresas, garantindo segurança jurídica e conformidade fiscal para que você tenha tranquilidade na tomada de decisão.
+                </p>
+                <ul class="space-y-3 text-sm text-gray-300">
+                    <li><i class="fa-solid fa-check text-accent mr-2"></i> Sem compromisso contratual imediato</li>
+                    <li><i class="fa-solid fa-check text-accent mr-2"></i> Respaldo técnico, ético e documental</li>
+                    <li><i class="fa-solid fa-check text-accent mr-2"></i> Atuação complementar à sua contabilidade</li>
+                </ul>
+            </div>
+            
+            <div class="p-10 md:w-1/2 flex flex-col justify-center bg-white">
+                <h3 class="font-serif text-2xl font-bold text-primary mb-2">Dê o primeiro passo</h3>
+                <p class="text-sm text-gray-500 mb-6">Preencha os dados abaixo. Nossa equipe fará contato inicial pelo WhatsApp para entender sua demanda.</p>
+                
+                <form id="formDiagnostico" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Nome do Responsável</label>
+                        <input type="text" id="nomeLead" required class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent outline-none transition" placeholder="Seu nome">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">WhatsApp</label>
+                        <input type="tel" id="whatsLead" required class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent outline-none transition" placeholder="(00) 00000-0000">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Qual a principal área de interesse hoje?</label>
+                        <select id="interesseLead" class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent outline-none transition">
+                            <option value="Não informada">Selecione uma opção...</option>
+                            <option value="Preventivo Trabalhista">Preventivo Trabalhista (Evitar processos/ajustar RH)</option>
+                            <option value="Revisão Tributária">Revisão Tributária (Simples Nacional)</option>
+                            <option value="Contratos e Empresarial">Contratos e Empresarial</option>
+                            <option value="Assessoria Full-Service">Assessoria Mensal Completa (Full-Service)</option>
+                            <option value="Outra demanda">Outra demanda</option>
+                        </select>
+                    </div>
+                    
+                    <!-- BOTÃO DO WHATSAPP -->
+                    <button type="button" onclick="enviarParaWhatsApp()" class="w-full bg-accent hover:bg-accentHover text-primary font-bold py-4 px-4 rounded-lg transition-colors mt-4 shadow-md flex justify-center items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-xl"></i> Agendar Diagnóstico
+                    </button>
+                    
+                    <p class="text-xs text-center text-gray-400 mt-4"><i class="fa-solid fa-lock text-gray-300 mr-1"></i> Seus dados estão seguros e não serão compartilhados.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
     <!-- FOOTER -->
     <footer class="bg-white text-gray-400 py-8 text-center text-xs px-6 border-t border-gray-100">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
@@ -178,8 +237,27 @@
         </div>
     </footer>
 
-    <!-- SCRIPT DE ENVIO DA NEWSLETTER -->
+    <!-- SCRIPT DE ROTEAMENTO (NEWSLETTER E WHATSAPP) -->
     <script>
+        // REDIRECIONA PARA O SEU WHATSAPP
+        function enviarParaWhatsApp() {
+            var nome = document.getElementById('nomeLead').value.trim();
+            var telefone = document.getElementById('whatsLead').value.trim();
+            var interesse = document.getElementById('interesseLead').value;
+
+            if (nome === "" || telefone === "") {
+                alert("Por favor, preencha seu nome e WhatsApp para continuarmos de forma segura.");
+                return;
+            }
+
+            var seuNumeroWhatsApp = "5531971466764"; 
+            var texto = "Olá, Dr. Arthur! Meu nome é *" + nome + "*. Preenchi o formulário na sua página e tenho interesse na área de *" + interesse + "*. Gostaria de entender melhor como funciona o diagnóstico preliminar.";
+            
+            var url = "https://wa.me/" + seuNumeroWhatsApp + "?text=" + encodeURIComponent(texto);
+            window.open(url, '_blank');
+        }
+
+        // ENVIA OS DADOS DA NEWSLETTER PARA A SUA PLANILHA
         function enviarNewsletter(event) {
             event.preventDefault();
             
