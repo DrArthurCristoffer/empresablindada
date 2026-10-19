@@ -30,164 +30,136 @@
 </head>
 <body class="font-sans antialiased text-gray-800 bg-gray-50">
 
-    <!-- CABEÇALHO COM LOGO -->
+    <!-- CABEÇALHO -->
     <nav class="bg-primary py-5 px-6 border-b border-accent/20">
         <div class="max-w-6xl mx-auto flex justify-center md:justify-start">
-            <img src="logo.jpg.jpeg" alt="Logo Dr. Arthur Cristoffer" class="h-16 md:h-20 object-contain">
+            <div class="text-accent font-serif text-2xl font-bold tracking-wider">
+                ARTHUR CRISTOFFER<br><span class="text-xs font-sans tracking-widest text-gray-400 font-light uppercase">Advocacia e Consultoria</span>
+            </div>
         </div>
     </nav>
 
     <!-- HERO SECTION -->
-    <header class="bg-primary text-white pt-16 pb-24 px-6 relative overflow-hidden">
-        <div class="max-w-5xl mx-auto relative z-10 text-center">
-            <span class="inline-block py-1 px-4 rounded-full bg-secondary border border-accent/30 text-xs font-semibold tracking-widest mb-6 text-lightGold uppercase">
-                Exclusivo para empresas do Simples Nacional
+    <header class="bg-primary text-white pt-20 pb-24 px-6 relative overflow-hidden">
+        <div class="max-w-4xl mx-auto relative z-10 text-center">
+            
+            <span class="inline-block py-1.5 px-4 rounded-full border border-accent/40 text-[10px] font-bold tracking-widest mb-8 text-lightGold uppercase bg-accent/5">
+                EXCLUSIVO PARA EMPRESAS, COMÉRCIOS E PRESTADORES DE SERVIÇOS
             </span>
+            
             <h1 class="font-serif text-4xl md:text-5xl font-bold leading-tight mb-6 text-white">
-                Proteja o caixa da sua empresa e evite passivos ocultos com uma advocacia preventiva.
+                Baixe gratuitamente o Modelo de Contrato Blindado e proteja o seu negócio.
             </h1>
-            <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto font-light">
-                Mapeamos riscos trabalhistas, revisamos contratos e verificamos se você está pagando impostos indevidos. Um diagnóstico seguro, sem burocracia e alinhado à sua contabilidade.
+            
+            <p class="text-lg text-gray-300 mb-10 max-w-2xl mx-auto font-light">
+                Evite inadimplência, rescisões sem multa e riscos trabalhistas ocultos com um instrumento jurídico robusto e editável desenvolvido sob diretrizes de segurança.
             </p>
             
-            <!-- BOTÕES: DIAGNÓSTICO E CONTRATO GRATUITO -->
-            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <a href="#formulario" class="w-full sm:w-auto text-center inline-block bg-accent hover:bg-accentHover transition-colors duration-300 text-white font-bold py-4 px-8 rounded-lg text-lg shadow-lg">
-                    Solicitar Diagnóstico Preliminar
-                </a>
-                
-                <!-- LINK DO DRIVE ADICIONADO AQUI -->
-                <a href="https://drive.google.com/file/d/1gkQJSjRYnJO9wiVHJismhhEqEyCE4f2o/view?usp=drive_link" target="_blank" class="w-full sm:w-auto text-center inline-block bg-transparent border-2 border-accent text-accent hover:bg-accent hover:text-primary transition-colors duration-300 font-bold py-4 px-8 rounded-lg text-lg shadow-lg flex justify-center items-center gap-2">
-                    <i class="fa-solid fa-file-contract"></i> Baixar Contrato Modelo
+            <!-- BOTÃO PARA O GOOGLE FORMS -->
+            <div class="flex justify-center">
+                <!-- O LINK DO FORMS FOI COLOCADO AQUI: -->
+                <a href="https://forms.gle/ajNzCqZmYJucjYxFA" target="_blank" class="inline-block bg-[#B89955] hover:bg-[#9A7D42] transition-colors duration-300 text-primary font-bold py-4 px-10 rounded-lg text-lg shadow-lg flex items-center gap-3">
+                    <i class="fa-solid fa-file-contract"></i> Resgatar Modelo Gratuito Agora
                 </a>
             </div>
             
-            <p class="mt-8 text-sm text-gray-400 font-light">
-                <i class="fa-solid fa-shield-halved mr-1 text-accent"></i> Análise estritamente documental, ética e confidencial (LGPD).
+            <p class="mt-6 text-xs text-gray-500 font-light">
+                Documento validado com cláusulas de blindagem financeira e LGPD.
             </p>
         </div>
     </header>
 
     <!-- OS 3 PILARES -->
-    <section class="py-20 px-6 bg-white">
+    <section class="py-24 px-6 bg-white">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-16">
-                <h2 class="font-serif text-3xl font-bold text-primary mb-4">Atuação integrada para médias empresas</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">Sua empresa não precisa de vários escritórios. Centralizamos a segurança jurídica do seu negócio para que você foque apenas em crescer.</p>
+                <h2 class="font-serif text-3xl font-bold text-primary mb-4">Atuação estratégica para blindagem empresarial</h2>
+                <p class="text-gray-500 max-w-2xl mx-auto font-light">Segurança jurídica descomplicada para você fechar negócios e prestar serviços sem dor de cabeça.</p>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Trabalhista -->
-                <div class="bg-gray-50 p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-accent/30 transition duration-300">
-                    <div class="w-12 h-12 bg-secondary text-accent rounded-lg flex items-center justify-center text-xl mb-6 shadow-md">
+                <div class="bg-gray-50 p-10 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition duration-300">
+                    <div class="w-12 h-12 bg-primary text-accent rounded-xl flex items-center justify-center text-xl mb-6 shadow-md">
                         <i class="fa-solid fa-users-gear"></i>
                     </div>
-                    <h3 class="font-serif text-xl font-bold text-primary mb-3">Prevenção Trabalhista</h3>
-                    <p class="text-gray-600 mb-4 text-sm leading-relaxed">
-                        Auditoria preventiva em rotinas de RH e contratos de trabalho. Evite que pequenos erros operacionais se transformem em processos judiciais caros no futuro.
+                    <h3 class="font-serif text-xl font-bold text-primary mb-4">Prevenção Trabalhista</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed font-light">
+                        Contratos alinhados à autonomia civil para afastar riscos de vínculo empregatício disfarçado e passivos futuros.
                     </p>
                 </div>
 
                 <!-- Tributário -->
-                <div class="bg-gray-50 p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-accent/30 transition duration-300">
-                    <div class="w-12 h-12 bg-secondary text-accent rounded-lg flex items-center justify-center text-xl mb-6 shadow-md">
+                <div class="bg-gray-50 p-10 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition duration-300">
+                    <div class="w-12 h-12 bg-primary text-accent rounded-xl flex items-center justify-center text-xl mb-6 shadow-md">
                         <i class="fa-solid fa-file-invoice-dollar"></i>
                     </div>
-                    <h3 class="font-serif text-xl font-bold text-primary mb-3">Conformidade Tributária</h3>
-                    <p class="text-gray-600 mb-4 text-sm leading-relaxed">
-                        Muitas empresas do Simples Nacional pagam impostos a mais. Verificamos a regularidade fiscal e a viabilidade de recuperação de créditos de forma segura.
+                    <h3 class="font-serif text-xl font-bold text-primary mb-4">Conformidade e Caixa</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed font-light">
+                        Cláusulas financeiras rígidas com multas e juros estruturados para zerar a inadimplência e reter valores por quebra de contrato.
                     </p>
                 </div>
 
                 <!-- Empresarial -->
-                <div class="bg-gray-50 p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-accent/30 transition duration-300">
-                    <div class="w-12 h-12 bg-secondary text-accent rounded-lg flex items-center justify-center text-xl mb-6 shadow-md">
+                <div class="bg-gray-50 p-10 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition duration-300">
+                    <div class="w-12 h-12 bg-primary text-accent rounded-xl flex items-center justify-center text-xl mb-6 shadow-md">
                         <i class="fa-solid fa-handshake-angle"></i>
                     </div>
-                    <h3 class="font-serif text-xl font-bold text-primary mb-3">Contratos & Societário</h3>
-                    <p class="text-gray-600 mb-4 text-sm leading-relaxed">
-                        Elaboração e revisão de contratos com fornecedores e clientes, acordos de sócios e cobrança de inadimplentes. Proteção sólida para o seu patrimônio.
+                    <h3 class="font-serif text-xl font-bold text-primary mb-4">Contratos & Locação</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed font-light">
+                        Modelos híbridos de prestação de serviços e locação de equipamentos desenhados para proteger o patrimônio do seu negócio.
                     </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- METODOLOGIA / PROCESSO -->
-    <section class="py-20 px-6 bg-secondary text-white border-y border-accent/20">
-        <div class="max-w-5xl mx-auto">
-            <div class="text-center mb-16">
-                <h2 class="font-serif text-3xl font-bold text-white mb-4">Como funciona o nosso processo?</h2>
-                <p class="text-lightGold font-light">Um método desenhado para não sobrecarregar sua rotina.</p>
-            </div>
-
-            <div class="flex flex-col md:flex-row gap-8 relative">
-                <div class="flex-1 bg-primary p-8 rounded-lg shadow-xl border border-accent/10 relative z-10 text-center">
-                    <div class="w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center font-bold mx-auto mb-4 text-xl">1</div>
-                    <h4 class="font-bold mb-2 text-white">Alinhamento Inicial</h4>
-                    <p class="text-sm text-gray-400">Entendemos o seu modelo de negócio, quantidade de funcionários e principais desafios operacionais.</p>
-                </div>
-                <div class="flex-1 bg-primary p-8 rounded-lg shadow-xl border border-accent/10 relative z-10 text-center">
-                    <div class="w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center font-bold mx-auto mb-4 text-xl">2</div>
-                    <h4 class="font-bold mb-2 text-white">Coleta & Análise</h4>
-                    <p class="text-sm text-gray-400">Avaliamos contratos, folhas de pagamento ou notas fiscais de forma técnica, objetiva e sigilosa.</p>
-                </div>
-                <div class="flex-1 bg-primary p-8 rounded-lg shadow-xl border border-accent/10 relative z-10 text-center">
-                    <div class="w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center font-bold mx-auto mb-4 text-xl">3</div>
-                    <h4 class="font-bold mb-2 text-white">Parecer & Decisão</h4>
-                    <p class="text-sm text-gray-400">Apresentamos um relatório claro de riscos e oportunidades. Você só avança se fizer sentido para a empresa.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- SEÇÃO DA NEWSLETTER SEGMENTADA -->
-    <section class="py-20 px-6 bg-primary border-b border-accent/20" id="newsletter">
+    <section class="py-20 px-6 bg-primary border-t border-b border-accent/20" id="newsletter">
         <div class="max-w-4xl mx-auto">
-            <div class="bg-secondary rounded-2xl shadow-2xl border border-accent/30 p-8 md:p-12 text-white relative overflow-hidden">
-                <!-- Efeito de iluminação no fundo -->
+            <div class="bg-secondary rounded-3xl shadow-2xl border border-accent/20 p-8 md:p-12 text-white relative overflow-hidden">
                 <div class="absolute -right-20 -top-20 w-64 h-64 bg-accent/10 rounded-full blur-3xl"></div>
                 
                 <div class="relative z-10">
                     <h2 class="font-serif text-3xl font-bold mb-4 text-white">
                         <i class="fa-regular fa-envelope-open text-accent mr-3"></i>Boletim Jurídico Estratégico
                     </h2>
-                    <p class="text-gray-300 mb-8 font-light text-lg">
-                        Receba no seu e-mail alertas fiscais, decisões trabalhistas e orientações de negócios formatadas de forma executiva, apenas para as áreas que importam para você.
+                    <p class="text-gray-300 mb-8 font-light text-base">
+                        Quer receber mais materiais gratuitos e alertas fiscais focados na sua área de atuação? Inscreva-se para receber atualizações executivas diretamente no seu e-mail.
                     </p>
                     
                     <form id="formNewsletter" onsubmit="enviarNewsletter(event)" class="space-y-6">
                         <div class="grid md:grid-cols-2 gap-6">
                             <div>
-                                <label class="block text-sm font-medium text-gray-300 mb-2">Nome do Responsável / Empresa</label>
-                                <input type="text" id="newsNome" required class="w-full px-4 py-3 bg-primary border border-gray-700 rounded-lg text-white focus:ring-2 focus:ring-accent outline-none placeholder-gray-600 transition" placeholder="Ex: Arthur (Grupo Empresarial)">
+                                <label class="block text-sm font-medium text-gray-400 mb-2">Nome do Responsável / Empresa</label>
+                                <input type="text" id="newsNome" required class="w-full px-4 py-3 bg-primary border border-gray-700 rounded-lg text-white focus:ring-1 focus:ring-accent outline-none transition" placeholder="Ex: Grupo Alpha">
                             </div>
                             <div>
-                                <label class="block text-sm font-medium text-gray-300 mb-2">E-mail de Contato</label>
-                                <input type="email" id="newsEmail" required class="w-full px-4 py-3 bg-primary border border-gray-700 rounded-lg text-white focus:ring-2 focus:ring-accent outline-none placeholder-gray-600 transition" placeholder="contato@empresa.com.br">
+                                <label class="block text-sm font-medium text-gray-400 mb-2">E-mail Profissional</label>
+                                <input type="email" id="newsEmail" required class="w-full px-4 py-3 bg-primary border border-gray-700 rounded-lg text-white focus:ring-1 focus:ring-accent outline-none transition" placeholder="contato@empresa.com.br">
                             </div>
                         </div>
 
                         <div>
-                            <label class="block text-sm font-medium text-gray-300 mb-3">Quais áreas deseja acompanhar? (Selecione ao menos uma)</label>
-                            <div class="flex flex-col sm:flex-row gap-4">
+                            <label class="block text-sm font-medium text-gray-400 mb-4">Quais áreas impactam o seu negócio? (Selecione)</label>
+                            <div class="flex flex-col sm:flex-row gap-6">
                                 <label class="flex items-center gap-3 cursor-pointer group">
                                     <input type="checkbox" name="newsArea" value="Trabalhista" class="w-5 h-5 accent-accent" checked>
-                                    <span class="text-sm text-gray-300 group-hover:text-white transition-colors">Trabalhista e RH</span>
+                                    <span class="text-sm text-gray-300 group-hover:text-white transition-colors">RH e Trabalhista</span>
                                 </label>
                                 <label class="flex items-center gap-3 cursor-pointer group">
                                     <input type="checkbox" name="newsArea" value="Tributário" class="w-5 h-5 accent-accent" checked>
-                                    <span class="text-sm text-gray-300 group-hover:text-white transition-colors">Tributário e Fiscal</span>
+                                    <span class="text-sm text-gray-300 group-hover:text-white transition-colors">Impostos (Tributário)</span>
                                 </label>
                                 <label class="flex items-center gap-3 cursor-pointer group">
                                     <input type="checkbox" name="newsArea" value="Empresarial" class="w-5 h-5 accent-accent">
-                                    <span class="text-sm text-gray-300 group-hover:text-white transition-colors">Societário e Contratos</span>
+                                    <span class="text-sm text-gray-300 group-hover:text-white transition-colors">Contratos (Empresarial)</span>
                                 </label>
                             </div>
                         </div>
 
-                        <button type="submit" id="btnNewsletter" class="w-full sm:w-auto bg-transparent border-2 border-accent text-accent hover:bg-accent hover:text-primary transition-colors duration-300 font-bold py-3 px-8 rounded-lg text-lg shadow-lg">
-                            <i class="fa-solid fa-paper-plane mr-2"></i> Quero receber o Boletim
+                        <button type="submit" id="btnNewsletter" class="w-full sm:w-auto bg-transparent border border-accent text-accent hover:bg-accent hover:text-primary transition-colors duration-300 font-bold py-3 px-8 rounded-lg shadow-lg">
+                            <i class="fa-solid fa-paper-plane mr-2"></i> Subscrever Boletim Gratuito
                         </button>
                         
                         <p id="msgNewsletter" class="text-sm mt-4 hidden font-medium"></p>
@@ -197,7 +169,7 @@
         </div>
     </section>
 
-    <!-- AUTORIDADE E FORMULÁRIO (WHATSAPP) -->
+    <!-- AUTORIDADE E FORMULÁRIO (WHATSAPP DE VOLTA) -->
     <section id="formulario" class="py-20 px-6 bg-gray-50">
         <div class="max-w-6xl mx-auto bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden flex flex-col md:flex-row">
             
@@ -246,6 +218,7 @@
                         </select>
                     </div>
                     
+                    <!-- BOTÃO DO WHATSAPP -->
                     <button type="button" onclick="enviarParaWhatsApp()" class="w-full bg-accent hover:bg-accentHover text-primary font-bold py-4 px-4 rounded-lg transition-colors mt-4 shadow-md flex justify-center items-center gap-2">
                         <i class="fa-brands fa-whatsapp text-xl"></i> Agendar Diagnóstico
                     </button>
@@ -257,18 +230,16 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="bg-primary text-gray-500 py-10 text-center text-sm px-6 border-t border-accent/20">
+    <footer class="bg-white text-gray-400 py-8 text-center text-xs px-6 border-t border-gray-100">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-            <div class="flex items-center gap-3">
-                <img src="logo.jpg.jpeg" alt="Logo" class="h-8 grayscale opacity-50">
-                <p>&copy; 2026 Dr. Arthur Cristoffer. Todos os direitos reservados.</p>
-            </div>
+            <p>&copy; 2026 Dr. Arthur Cristoffer. Todos os direitos reservados.</p>
             <p>Atuação ética em conformidade com as diretrizes da OAB.</p>
         </div>
     </footer>
 
-    <!-- SCRIPT DE ROTEAMENTO WHATSAPP & NEWSLETTER -->
+    <!-- SCRIPT DE ROTEAMENTO (NEWSLETTER E WHATSAPP) -->
     <script>
+        // REDIRECIONA PARA O SEU WHATSAPP
         function enviarParaWhatsApp() {
             var nome = document.getElementById('nomeLead').value.trim();
             var telefone = document.getElementById('whatsLead').value.trim();
@@ -286,6 +257,7 @@
             window.open(url, '_blank');
         }
 
+        // ENVIA OS DADOS DA NEWSLETTER PARA A SUA PLANILHA
         function enviarNewsletter(event) {
             event.preventDefault();
             
@@ -293,10 +265,9 @@
             const msg = document.getElementById('msgNewsletter');
             const form = document.getElementById('formNewsletter');
             
-            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin mr-2"></i> Processando...';
+            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin mr-2"></i> A processar...';
             btn.disabled = true;
 
-            // Coleta todas as áreas marcadas nas caixinhas (Trabalhista, Tributário...)
             const areasCheckbox = document.querySelectorAll('input[name="newsArea"]:checked');
             let areasSelecionadas = [];
             areasCheckbox.forEach((cb) => { areasSelecionadas.push(cb.value); });
@@ -307,26 +278,28 @@
             formData.append('email', document.getElementById('newsEmail').value);
             formData.append('areas', areaFinal);
 
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbzv3nbX6g6CFpdZkQ3LJWudjtR6QGfkQvqYmsraGaWpwO8xt4KYsqZ4sty8HIe9u0KL/exec';
+            // =========================================================
+            // COLE AQUI A URL DO SEU APP DA WEB (GOOGLE SCRIPT)
+            // =========================================================
+            const scriptURL = 'COLE_AQUI_A_URL_DO_WEB_APP';
 
             fetch(scriptURL, { method: 'POST', body: formData, mode: 'no-cors' })
                 .then(() => {
                     msg.innerHTML = '<i class="fa-solid fa-circle-check mr-2"></i> Inscrição confirmada com sucesso!';
                     msg.classList.remove('hidden', 'text-red-400');
-                    msg.classList.add('text-green-400');
+                    msg.classList.add('text-green-500');
                     form.reset();
-                    btn.innerHTML = '<i class="fa-solid fa-paper-plane mr-2"></i> Quero receber o Boletim';
+                    btn.innerHTML = '<i class="fa-solid fa-paper-plane mr-2"></i> Subscrever Boletim Gratuito';
                     btn.disabled = false;
                 })
                 .catch(error => {
-                    msg.innerHTML = '<i class="fa-solid fa-circle-xmark mr-2"></i> Ocorreu um erro na conexão. Tente novamente.';
-                    msg.classList.remove('hidden', 'text-green-400');
+                    msg.innerHTML = '<i class="fa-solid fa-circle-xmark mr-2"></i> Ocorreu um erro na ligação. Tente novamente.';
+                    msg.classList.remove('hidden', 'text-green-500');
                     msg.classList.add('text-red-400');
                     btn.innerHTML = 'Tentar novamente';
                     btn.disabled = false;
                 });
         }
     </script>
-
 </body>
 </html>
